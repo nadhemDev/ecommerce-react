@@ -1,10 +1,10 @@
 import React from 'react'
-
+import './Navbar.css'
 const Navbar = () => {
     return (
-        <div className='flex justify-between'>
+        <div className='flex justify-between p-3'>
             {/* Brand */}
-            <a className='p-3' href="/">Welly</a>
+            <a className="navbar__brand" href="/">Welly</a>
 
             <div className='flex'>
                 <a href="/home">Home</a>
@@ -26,7 +26,7 @@ const Navbar = () => {
 
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 
