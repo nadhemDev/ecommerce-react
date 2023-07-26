@@ -16,8 +16,9 @@ module.exports = {
         dark: "#0C080B",
         green: "#1E3329",
         yellow: "#FFD470",
-        grey: "#B8B8BB",
-        light: "#B8B8BB",
+        'dark-gray': '#B8B8BB',
+        'light-grey': "#ECECEC",
+        light: "#FAFAFA",
 
       },
       // Extend or override default theme settings
