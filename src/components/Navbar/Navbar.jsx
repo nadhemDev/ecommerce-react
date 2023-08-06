@@ -7,7 +7,7 @@ const Navbar = () => {
             {/* TODO */}
             <a className="text-2xl" href="/">Welly</a>
 
-            <div className='flex item-end'>
+            <div className='flex item-end lowercase'>
                 <a className='text-sm mr-8' href="/home">Home</a>
                 <a className='text-sm mr-8' href="/search">Search</a>
                 <a className='text-sm mr-8' href="/about">About</a>
